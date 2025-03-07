@@ -69,18 +69,19 @@ El programa leerá un número decimal, simulará el comportamiento de la máquin
 ## Inputs X 10: Configuraciones de Computación
 Se evaluarán **10 entradas diferentes**, como:
 
-| Entrada  | Salida |
-|----------|--------|
-| 0004     | IV     |
-| 0009     | IX     |
-| 0014     | XIV    |
-| 0040     | XL     |
-| 0090     | XC     |
-| 3999     | MMMCMXCIX |
-| 0500     | D      |
-| 1000     | M      |
-| 2024     | MMXXIV |
-| 2500     | MMD    |
+| Entrada  | Salida || Movimientos|| Celdas|
+|----------|--------||------------||--------|
+| 0000     | IV     ||Steps: 4    ||1       |
+| 0004     | IV     ||Steps: 9    ||3       |
+| 0009     | IX     ||Steps: 9    ||3       |
+| 0014     | XIV    ||Steps: 19   ||4       |
+| 0040     | XL     ||Steps: 15   ||2       |
+| 0090     | XC     ||Steps: 15   ||3       |
+| 3999     | MMMCMXCIX||Steps: 73 ||10      |
+| 0500     | D      ||Steps: 15   ||2       |
+| 1000     | M      ||Steps: 17   ||2       |
+| 2024     | MMXXIV ||Steps: 43   ||7       |
+| 3888     | MMMDCCCLXXXVIII||Steps: 91   ||16
 
 Para cada entrada, se analizará el comportamiento de la Máquina de Turing.
 
