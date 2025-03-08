@@ -66,8 +66,8 @@ El programa leerá un número decimal, simulará el comportamiento de la máquin
 
 ---
 
-## Inputs X 10: Configuraciones de Computación
-Se evaluarán **10 entradas diferentes**, como:
+## Inputs: Configuraciones de Computación
+Se evaluarán **Diferentes entradas**, como:
 
 | Entrada  | Salida            | Movimientos| Celdas|
 |----------|-------------------|------------|--------|
@@ -98,8 +98,6 @@ Se evaluarán **10 entradas diferentes**, como:
 | 3750#     | #MMMDCCL         |63          |8       |
 | 3888#     | #MMMDCCCLXXXVIII |91          |16      |
 | 3999#     | #MMMCMXCIX       |73          |10      |
-
-Para cada entrada, se analizará el comportamiento de la Máquina de Turing.
 
 ---
 
