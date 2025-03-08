@@ -101,10 +101,9 @@ Se evaluarán **Diferentes entradas**, como:
 
 ## Complejidad Temporal
 
-![image](https://github.com/user-attachments/assets/bf7d1468-866f-4066-8c5c-b6c35870b6d8)
+Dado un algoritmo, la **complejidad temporal** es la cantidad de pasos, operaciones o acciones elementales que debe realizar el algoritmo al ser ejecutado en una instancia.
 
-La **complejidad temporal** mide cuántos pasos de cómputo realiza la Máquina de Turing en función del tamaño de la entrada.  
-En este caso, el tamaño de la entrada es la cantidad de dígitos del número decimal que se quiere convertir a romano.
+![image](https://github.com/user-attachments/assets/bf7d1468-866f-4066-8c5c-b6c35870b6d8)
 
 ### **Análisis**
 - Para cada dígito del número de entrada, la máquina necesita recorrer la cinta varias veces para reemplazarlo con los símbolos romanos correspondientes.
@@ -119,9 +118,9 @@ En este caso, el tamaño de la entrada es la cantidad de dígitos del número de
 
 ## Complejidad Espacial
 
-![image](https://github.com/user-attachments/assets/bb3ed3f3-63f8-45ac-bde5-9e27aab3c31d)
-
 La **complejidad espacial** mide cuánta memoria (**longitud de la cinta de la Máquina de Turing**) se usa durante la computación.
+
+![image](https://github.com/user-attachments/assets/bb3ed3f3-63f8-45ac-bde5-9e27aab3c31d)
 
 ### **Análisis**
 - La cantidad de espacio requerido depende de la longitud de la representación en números romanos.
