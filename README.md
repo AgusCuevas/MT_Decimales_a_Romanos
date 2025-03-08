@@ -1,11 +1,16 @@
 # MT_Decimales_a_Romanos
 
 ## Función que Computa
-La función principal de esta Máquina de Turing es recibir un número decimal (representado en base 10) y transformarlo en su equivalente en numeración romana, generando la salida en una cinta de trabajo.
+La función principal de esta Máquina de Turing es recibir un número decimal (representado en base 10) y transformarlo en su equivalente en numeración romana, generando la salida en la cinta de la maquina.
 
 ### Entrada y Representación
 - La entrada es un número decimal, con un # como separador (por ejemplo, "1987#").
 - La máquina lee la entrada dígito por dígito y la almacena en su cinta.
+
+### Limitacion
+- La maquina espera como entrada 4 digitos decimales mas el simbolo #.
+- Por ejemplo: 0000#, 0500#, 0010#, etc.
+- De esta forma la maquina puede entender cual es el digito que se esta convirtiendo. (Millar, centena, decena, unidad)
 
 ### Conversión de Dígitos
 La máquina de Turing sigue un conjunto de reglas para traducir cada dígito según su posición (millares, centenas, decenas, unidades).  
