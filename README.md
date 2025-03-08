@@ -4,15 +4,17 @@
 La función principal de esta Máquina de Turing es recibir un número decimal (representado en base 10) y transformarlo en su equivalente en numeración romana, generando la salida en una cinta de trabajo.
 
 ### Entrada y Representación
-- La entrada es un número decimal expresado en notación posicional (por ejemplo, "1987").
+- La entrada es un número decimal, con un # como separador (por ejemplo, "1987#").
 - La máquina lee la entrada dígito por dígito y la almacena en su cinta.
 
 ### Conversión de Dígitos
 La máquina de Turing sigue un conjunto de reglas para traducir cada dígito según su posición (millares, centenas, decenas, unidades).  
 Utiliza reglas como:
 
-- **Unidades y decenas:**  
-  - `1 → I`, `2 → II`, `3 → III`, ..., `9 → IX`  
+- **Unidades**  
+  - `1 → I`, `2 → II`, `3 → III`, ..., `9 → IX`
+ 
+- **Decenas**  
   - `10 → X`, `20 → XX`, ..., `90 → XC`  
 
 - **Centenas:**  
@@ -24,12 +26,12 @@ Utiliza reglas como:
 ### Generación de la Salida
 La máquina escribe la salida en la cinta, reemplazando cada dígito por su equivalente en números romanos.  
 
-Ejemplo para **1987**:
+Ejemplo para **1987#**:
 - `1000 → M`
 - `900 → CM`
 - `80 → LXXX`
 - `7 → VII`
-- **Resultado:** `MCMLXXXVII`
+- **Resultado:** `#MCMLXXXVII`
 
 ## Límite de 3999 en los Números Romanos
 El sistema de numeración romana clásico no incluye un símbolo específico para 5000 ni para potencias superiores de 10.  
@@ -55,10 +57,12 @@ La Máquina de Turing se define formalmente como una **7-tupla** `(Q, Σ, Γ, δ
 ## Diseño JFlap
 ![image](https://github.com/user-attachments/assets/728a5bd1-edfc-4d9a-aa96-9d18093d5b48)
 
----
+[Archivo JFLAP]([https://github.com/usuario/repositorio/blob/main/web.config](https://github.com/AgusCuevas/MT_Decimales_a_Romanos/blob/main/numeros%20romanos_2.jff))
 
 ## Programa Simulator
 El programa leerá un número decimal, simulará el comportamiento de la máquina y devolverá el resultado en numeración romana.
+
+[Archivo SIMULADOR]([https://github.com/usuario/repositorio/blob/main/web.config](https://github.com/AgusCuevas/MT_Decimales_a_Romanos/blob/main/numeros%20romanos_2_script.jff))
 
 ---
 
