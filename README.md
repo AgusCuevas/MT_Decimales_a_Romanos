@@ -39,10 +39,10 @@ Ejemplo para **1987#**:
 - **Resultado:** `#MCMLXXXVII`
 
 ## Límite de 3999 en los Números Romanos
-El sistema de numeración romana clásico no incluye un símbolo específico para 5000 ni para potencias superiores de 10.  
-Tradicionalmente, los números superiores a 3999 requerían una notación especial con líneas sobre los símbolos para multiplicarlos por 1000 (por ejemplo, `V̅` para representar `5000`).  
+El sistema de numeración romana clásico no incluye un símbolo específico para 5000 ni para potencias mayores de 10.  
+Los números superiores a 3999 requieren una notación especial con líneas sobre los símbolos para multiplicarlos por 1000 (por ejemplo, `V̅` para representar `5000`).  
 
-Dado que la máquina se basa en la notación romana convencional sin líneas o modificadores especiales, el máximo número que puede representar es **3999 (`MMMCMXCIX`)**.
+La máquina desarrollada se basa en la notación romana convencional sin líneas o simbolos especiales, el máximo número que puede representar es **3999 (`MMMCMXCIX`)**.
 
 ---
 
