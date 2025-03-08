@@ -53,11 +53,7 @@ La Máquina de Turing se define formalmente como una **7-tupla** `(Q, Σ, Γ, δ
 ---
 
 ## Diseño JFlap
-Se modelará la Máquina de Turing en **JFlap**, donde se definen:
-
-- Estados para identificar unidades, decenas, centenas y millares.
-- Transiciones que transforman cada dígito decimal en su representación romana.
-- Movimiento de la cabeza de la cinta según las reglas de transición.
+![image](https://github.com/user-attachments/assets/728a5bd1-edfc-4d9a-aa96-9d18093d5b48)
 
 ---
 
