@@ -84,6 +84,10 @@ Se evaluarán **10 entradas diferentes**, como:
 | 0456#     | #CDLVI           |38          |6       |
 | 0500#     | #D               |15          |2       |
 | 1000#     | #M               |17          |2       |
+| 1234#     | #MCCXXXIV        |62          |9       |
+| 1546#     | #MDXLVI          |54          |7       |
+| 1987#     | #MCMLXXXVII      |66          |11      |
+| 2000#     | #MM              |19          |3       |
 | 2024#     | #MMXXIV          |43          |7       |
 | 3888#     | #MMMDCCCLXXXVIII |91          |16      |
 | 3999#     | #MMMCMXCIX       |73          |10      |
