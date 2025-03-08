@@ -44,14 +44,12 @@ Dado que la máquina se basa en la notación romana convencional sin líneas o m
 ## Formalismo
 La Máquina de Turing se define formalmente como una **7-tupla** `(Q, Σ, Γ, δ, q0, qA, qR)`, donde:
 
-- **Q**: Conjunto finito de estados.
-- **Σ**: Alfabeto de entrada (dígitos decimales `0-9`).
-- **Γ**: Alfabeto de la cinta (incluye `Σ` y los símbolos romanos `I, V, X, L, C, D, M` y el símbolo de espacio en blanco `_`).
-- **δ**: Función de transición que describe los movimientos de la máquina.
-- **q0**: Estado inicial.
-- **qA**: Estado de aceptación.
-- **qR**: Estado de rechazo.
-
+- **Q**: {q87, q88, q91, q94, q_writte_M, q_writte_MM, q_writte_MMM, q98, q76, q58, q67, q77, q59, q68, q60, q69, q61, q70, q62, q71, q63, q72, q64, q73, q65, q74, q66, q75, q85, q29, q30, q40, q_decenas, q_decenas_loop, q_writte_XX, q_writte_XXX, q_writte_XL, q_writte_LX, q_writte_LXX, q_writte_LXXX, q_writte_XC, q57, q0, q1, q10, q_unidades, q_unidades_loop, q_writte_II, q_writte_III, q_writte_IV, q_writte_VI, q_writte_VII, q_writte_VIII, q_writte_IX,q89,q92,q90,q93,q31,q41,q32,q42,q33,q43,q34,q44,q35,q45,q36,q46,q37,q47,q38,q48,q_writte_CC,q_writte_CCC,q_writte_CD,q_writte_DC,q_writte_DCC,q_writte_DCCC,q_writte_CM,q_centenas_loop,q2,q11,q3,q12,q4,q13,q5,q14,q6,q15,q7,q16,q8,q17,q9,q18,q28}
+- **Σ**: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+- **Γ**: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, #, I, V, X, L, C, D, M, _}
+- **δ**: [Archivo TRANSICIONES](www.google.com)
+- **q0**: q87.
+- **qA**: {q28}.
 ---
 
 ## Diseño JFlap
