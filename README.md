@@ -111,8 +111,7 @@ Dado un algoritmo, la **complejidad temporal** es la cantidad de pasos, operacio
 - La conversión implica principalmente **buscar equivalencias y escribir símbolos en la cinta**, lo que puede requerir movimientos proporcionales al número de caracteres generados.
 
 ### **Orden de Complejidad**
-- Si **n** es la cantidad de dígitos del número decimal, la conversión puede tardar alrededor de **O(n)** en el peor caso.
-- Sin embargo, dado que el número romano puede ser hasta **tres veces más largo** que el decimal en algunos casos, la máquina puede necesitar hasta **O(3n) = O(n)** pasos.
+La complejidad temporal no muestra un patrón exacto, debido a las reglas de conversión de números decimales a números romanos. La representación de ciertos números, como 10, 500, 1000, 3000, etc. requieren transiciones que no escalan linealmente con el tamaño de la entrada. La presencia de estos números, como casos especiales, genera picos en la cantidad de transiciones y afecta significativamente la forma del grafico de complejidad temporal.
 
 ---
 
@@ -124,8 +123,8 @@ La **complejidad espacial** mide cuánta memoria (**longitud de la cinta de la M
 
 ### **Análisis**
 - La cantidad de espacio requerido depende de la longitud de la representación en números romanos.
-- En el peor caso, un número decimal de **4 dígitos** puede convertirse en un número romano de hasta **9 caracteres** (ejemplo: `3999 → "MMMCMXCIX"`).
-- La máquina necesita **suficiente cinta** para almacenar el resultado y operar los reemplazos de símbolos.
+- En el peor caso, un número decimal de **4 dígitos** puede convertirse en un número romano de hasta **15 caracteres** (ejemplo: `3888 → "MMMDCCCLXXXVIII"`).
 
 ### **Orden de Complejidad**
-- Si **n** es la cantidad de dígitos del número decimal, la representación romana puede ser hasta **tres veces más larga**, lo que da una **complejidad espacial de O(3n) = O(n)**.
+
+La complejidad espacial no es exacta, esta depende de la cantidad de caracteres que se escriben en la cienta, y la cantidad de caracteres que se escriben, depende de las reglas de conversión de los números romanos y estas no son lineales.
