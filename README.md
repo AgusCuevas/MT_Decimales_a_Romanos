@@ -71,17 +71,22 @@ Se evaluarán **10 entradas diferentes**, como:
 
 | Entrada  | Salida            | Movimientos| Celdas|
 |----------|-------------------|------------|--------|
-| 0000#     | #                |4    |1       |
-| 0004#     | #IV              |9    |3       |
-| 0009#     | #IX              |9    |3       |
-| 0014#     | #XIV             |19   |4       |
-| 0040#     | #XL              |15   |2       |
-| 0090#     | #XC              |15   |3       |
-| 0500#     | #D               |15   |2       |
-| 1000#     | #M               |17   |2       |
-| 2024#     | #MMXXIV          |43   |7       |
-| 3888#     | #MMMDCCCLXXXVIII |91   |16|
-| 3999#     | #MMMCMXCIX       |73 |10      |
+| 0000#     | #                |4           |1       |
+| 0004#     | #IV              |9           |3       |
+| 0009#     | #IX              |9           |3       |
+| 0014#     | #XIV             |19          |4       |
+| 0040#     | #XL              |15          |2       |
+| 0055#     | #LV              |18          |3       |
+| 0067#     | #LXVII           |23          |6       | 
+| 0090#     | #XC              |15          |3       |
+| 0275#     | #CCLXXV          |43          |7       |
+| 0318#     | #CCCXVIII        |45          |9       |
+| 0456#     | #CDLVI           |38          |6       |
+| 0500#     | #D               |15          |2       |
+| 1000#     | #M               |17          |2       |
+| 2024#     | #MMXXIV          |43          |7       |
+| 3888#     | #MMMDCCCLXXXVIII |91          |16      |
+| 3999#     | #MMMCMXCIX       |73          |10      |
 
 Para cada entrada, se analizará el comportamiento de la Máquina de Turing.
 
