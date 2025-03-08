@@ -89,6 +89,13 @@ Se evaluarán **10 entradas diferentes**, como:
 | 1987#     | #MCMLXXXVII      |66          |11      |
 | 2000#     | #MM              |19          |3       |
 | 2024#     | #MMXXIV          |43          |7       |
+| 2356#     | #MMCCCLVI        |68          |9       |
+| 2500#     | #MMD             |34          |4       |
+| 2751#     | #MMDCCLI         |67          |8       |
+| 3000#     | #MMM             |21          |4       |
+| 3237#     | #MMMCCXXXVII     |77          |12      |
+| 3542#     | #MMMDXLII        |68          |9       |
+| 3750#     | #MMMDCCL         |63          |8       |
 | 3888#     | #MMMDCCCLXXXVIII |91          |16      |
 | 3999#     | #MMMCMXCIX       |73          |10      |
 
