@@ -107,7 +107,7 @@ Dado un algoritmo, la **complejidad temporal** es la cantidad de pasos, operacio
 
 ### **Análisis**
 - Para cada dígito del número de entrada, la máquina necesita recorrer la cinta varias veces para reemplazarlo con los símbolos romanos correspondientes.
-- Dado que los números romanos pueden tener una representación más larga que los decimales (por ejemplo, `3999 → "MMMCMXCIX"` con 9 caracteres), la máquina de Turing puede necesitar moverse múltiples veces sobre la cinta para insertar los caracteres correctos.
+- Dado que los números romanos pueden tener una representación más larga que los decimales (por ejemplo, `3888 → "MMMDCCCLXXXVIII"` con 15 caracteres), la máquina de Turing puede necesitar moverse múltiples veces sobre la cinta para insertar los caracteres correctos.
 - La conversión implica principalmente **buscar equivalencias y escribir símbolos en la cinta**, lo que puede requerir movimientos proporcionales al número de caracteres generados.
 
 ### **Orden de Complejidad**
