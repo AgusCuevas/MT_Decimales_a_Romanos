@@ -194,21 +194,21 @@ q94,3,-
 ////////////////////////////////////////////////
 
 q94,1  
-q_writte_M,M,>
+q_write_M,M,>
 
 q94,2  
-q_writte_MM,M,>
+q_write_MM,M,>
 
-q_writte_MM,_  
-q_writte_M,M,>
+q_write_MM,_  
+q_write_M,M,>
 
 q94,3 
-q_writte_MMM,M,>
+q_write_MMM,M,>
 
-q_writte_MMM,_ 
-q_writte_MM,M,>
+q_write_MMM,_ 
+q_write_MM,M,>
 
-q_writte_M,_  
+q_write_M,_  
 q98,_,<
 
 q98,0  
@@ -826,48 +826,48 @@ q77,1
 q_centenas_loop,C,>
 
 q77,2  
-q_writte_CC,C,>
+q_write_CC,C,>
 
-q_writte_CC,_  
+q_write_CC,_  
 q_centenas_loop,C,>
 
 q77,3  
-q_writte_CCC,C,>
+q_write_CCC,C,>
 
-q_writte_CCC,_  
-q_writte_CC,C,>
+q_write_CCC,_  
+q_write_CC,C,>
 
 q77,4  
-q_writte_CD,C,>
+q_write_CD,C,>
 
-q_writte_CD,_
+q_write_CD,_
 q_centenas_loop,D,>
 
 q77,5  
 q_centenas_loop,D,>
 
 q77,6  
-q_writte_DC,D,>
+q_write_DC,D,>
 
-q_writte_DC,_
+q_write_DC,_
 q_centenas_loop,C,>
 
 q77,7  
-q_writte_DCC,D,>
+q_write_DCC,D,>
 
-q_writte_DCC,_
-q_writte_DC,C,>
+q_write_DCC,_
+q_write_DC,C,>
 
 q77,8  
-q_writte_DCCC,D,>
+q_write_DCCC,D,>
 
-q_writte_DCCC,_
-q_writte_DCC,C,>
+q_write_DCCC,_
+q_write_DCC,C,>
 
 q77,9  
-q_writte_CM,C,>
+q_write_CM,C,>
 
-q_writte_CM,_  
+q_write_CM,_  
 q_centenas_loop,M,>
 
 q_centenas_loop,_
@@ -1489,48 +1489,48 @@ q_decenas,1
 q_decenas_loop,X,>
 
 q_decenas,2  
-q_writte_XX,X,>
+q_write_XX,X,>
 
-q_writte_XX,_
+q_write_XX,_
 q_decenas_loop,X,>
 
 q_decenas,3  
-q_writte_XXX,X,>
+q_write_XXX,X,>
 
-q_writte_XXX,_
-q_writte_XX,X,>
+q_write_XXX,_
+q_write_XX,X,>
 
 q_decenas,4  
-q_writte_XL,X,>
+q_write_XL,X,>
 
-q_writte_XL,_
+q_write_XL,_
 q_decenas_loop,L,>
 
 q_decenas,5  
 q_decenas_loop,L,>
 
 q_decenas,6  
-q_writte_LX,L,>
+q_write_LX,L,>
 
-q_writte_LX,_
+q_write_LX,_
 q_decenas_loop,X,>
 
 q_decenas,7  
-q_writte_LXX,L,>
+q_write_LXX,L,>
 
-q_writte_LXX,_
-q_writte_LX,X,>
+q_write_LXX,_
+q_write_LX,X,>
 
 q_decenas,8  
-q_writte_LXXX,L,>
+q_write_LXXX,L,>
 
-q_writte_LXXX,_
-q_writte_LXX,X,>
+q_write_LXXX,_
+q_write_LXX,X,>
 
 q_decenas,9  
-q_writte_XC,X,>
+q_write_XC,X,>
 
-q_writte_XC,_
+q_write_XC,_
 q_decenas_loop,C,>
 
 q_decenas_loop,_
@@ -2153,48 +2153,48 @@ q_unidades,1
 q_unidades_loop,I,>
 
 q_unidades,2  
-q_writte_II,I,>
+q_write_II,I,>
 
-q_writte_II,_
+q_write_II,_
 q_unidades_loop,I,>
 
 q_unidades,3  
-q_writte_III,I,>
+q_write_III,I,>
 
-q_writte_III,_
-q_writte_II,I,>
+q_write_III,_
+q_write_II,I,>
 
 q_unidades,4  
-q_writte_IV,I,>
+q_write_IV,I,>
 
-q_writte_IV,_
+q_write_IV,_
 q_unidades_loop,V,>
 
 q_unidades,5  
 q_unidades_loop,V,>
 
 q_unidades,6  
-q_writte_VI,V,>
+q_write_VI,V,>
 
-q_writte_VI,_
+q_write_VI,_
 q_unidades_loop,I,>
 
 q_unidades,7  
-q_writte_VII,V,>
+q_write_VII,V,>
 
-q_writte_VII,_
-q_writte_VI,I,>
+q_write_VII,_
+q_write_VI,I,>
 
 q_unidades,8  
-q_writte_VIII,V,>
+q_write_VIII,V,>
 
-q_writte_VIII,_
-q_writte_VII,I,>
+q_write_VIII,_
+q_write_VII,I,>
 
 q_unidades,9  
-q_writte_IX,I,>
+q_write_IX,I,>
 
-q_writte_IX,_
+q_write_IX,_
 q_unidades_loop,X,>
 
 q_unidades_loop,_
