@@ -3,7 +3,7 @@
 ## Función que Computa
 La función principal de esta Máquina de Turing es recibir un número decimal (representado en base 10) y transformarlo en su equivalente en numeración romana, generando la salida en la cinta de la maquina.
 
-### Entrada y Representación
+### Estrategia de diseño
 - La entrada es un número decimal, con un # como separador (por ejemplo, "1987#").
 - La máquina lee la entrada dígito por dígito y la almacena en su cinta.
 
