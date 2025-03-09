@@ -110,7 +110,7 @@ Se evaluarán **Diferentes entradas**, como:
 
 Dado un algoritmo, la **complejidad temporal** es la cantidad de pasos, operaciones o acciones elementales que debe realizar el algoritmo al ser ejecutado en una instancia.
 
-![image](https://github.com/user-attachments/assets/c4a05b9b-05e4-47a4-b9e1-596e500b7ceb)
+![image](https://github.com/user-attachments/assets/bf7d1468-866f-4066-8c5c-b6c35870b6d8)
 
 
 ### **Análisis**
