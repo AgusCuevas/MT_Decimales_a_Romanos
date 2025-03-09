@@ -67,6 +67,8 @@ La Máquina de Turing se define formalmente como una **7-tupla** `(Q, Σ, Γ, δ
 ## Programa Simulator
 El programa leerá un número decimal, simulará el comportamiento de la máquina y devolverá el resultado en numeración romana.
 
+Link simulador: http://turingmachinesimulator.com/shared/kkzlgewgni
+
 [Archivo SIMULADOR](https://github.com/AgusCuevas/MT_Decimales_a_Romanos/blob/main/numeros%20romanos_2_script.jff)
 
 ---
