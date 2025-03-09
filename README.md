@@ -28,7 +28,7 @@ Utiliza reglas como:
 - **Millares:**  
   - `1000 → M`, `2000 → MM`, `3000 → MMM`  
 
-### Generación de la Salida
+### Salida
 La máquina escribe la salida en la cinta, reemplazando cada dígito por su equivalente en números romanos.  
 
 Ejemplo para **1987#**:
