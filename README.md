@@ -114,12 +114,9 @@ Dado un algoritmo, la **complejidad temporal** es la cantidad de pasos, operacio
 
 ![image](https://github.com/user-attachments/assets/bf7d1468-866f-4066-8c5c-b6c35870b6d8)
 
-
-### **Análisis**
 - Los números romanos pueden tener una representación más larga que los decimales (por ejemplo, `3888 → "MMMDCCCLXXXVIII"` con 15 caracteres), la máquina de Turing necesita moverse múltiples veces sobre la cinta para insertar los caracteres correctos.
 - La conversión implica principalmente **buscar equivalencias y escribir símbolos en la cinta**, lo que requiere movimientos proporcionales al número de caracteres generados.
 
-### **Orden de Complejidad**
 La complejidad temporal no muestra un patrón exacto, debido a las reglas de conversión de números decimales a números romanos. La representación de ciertos números, como 10, 500, 1000, 3000, etc. requieren transiciones que no escalan linealmente con el tamaño de la entrada. La presencia de estos números, como casos especiales, genera picos en la cantidad de transiciones y afecta significativamente la forma del grafico de complejidad temporal.
 
 ---
@@ -130,10 +127,7 @@ La **complejidad espacial** mide cuánta memoria (**longitud de la cinta de la M
 
 ![image](https://github.com/user-attachments/assets/bb3ed3f3-63f8-45ac-bde5-9e27aab3c31d)
 
-### **Análisis**
 - La cantidad de espacio requerido depende de la longitud de la representación en números romanos.
 - En el peor caso, un número decimal de **4 dígitos** puede convertirse en un número romano de hasta **15 caracteres** (ejemplo: `3888 → "MMMDCCCLXXXVIII"`).
-
-### **Orden de Complejidad**
 
 La complejidad espacial no es exacta, esta depende de la cantidad de caracteres que se escriben en la cienta, y la cantidad de caracteres que se escriben, depende de las reglas de conversión de los números romanos y estas no son lineales.
