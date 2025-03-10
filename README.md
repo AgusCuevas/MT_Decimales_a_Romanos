@@ -1,4 +1,4 @@
-# MT_Decimales_a_Romanos
+# Máquina de Turing - Conversion de numeros decimales a números Romanos 
 
 ## Función que Computa
 La función principal de esta Máquina de Turing es recibir un número decimal (representado en base 10) y transformarlo en su equivalente en numeración romana, generando la salida en la cinta de la maquina.
