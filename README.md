@@ -76,7 +76,7 @@ Link simulador: http://turingmachinesimulator.com/shared/kkzlgewgni
 ## Inputs: Configuraciones de Computación
 Se evaluarán **Diferentes entradas**, como:
 
-| Entrada  | Salida            | Movimientos| Celdas|
+| Entrada  | Salida            | Movimientos| Celdas + 4|
 |----------|-------------------|------------|--------|
 | 0000#     | #                |4           |1       |
 | 0004#     | #IV              |9           |3       |
