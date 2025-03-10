@@ -59,7 +59,7 @@ La Máquina de Turing se define formalmente como una **7-tupla** `(Q, Σ, Γ, δ
 
 ## Diseño JFlap
 
-![image]((https://github.com/AgusCuevas/MT_Decimales_a_Romanos/blob/main/numeros%20romanos_2.1_IMAGEN.PNG)
+![image](https://github.com/AgusCuevas/MT_Decimales_a_Romanos/blob/main/numeros%20romanos_2.1_IMAGEN.PNG)
 
 [Archivo JFLAP](https://github.com/AgusCuevas/MT_Decimales_a_Romanos/blob/main/numeros%20romanos_2.1.jff)
 
